@@ -1,0 +1,139 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.4",
+	"appid": "wxef619f79256b86e9",
+	"projectname": "componentDemo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "01-view组件",
+					"pathName": "pages/01-viewDemo/01-viewDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "02-text组件",
+					"pathName": "pages/02-textDemo/02-textDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "03-image组件",
+					"pathName": "pages/03-imageDemo/03-imageDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "04-icon组件",
+					"pathName": "pages/04-iconDemo/04-iconDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "05-button组件",
+					"pathName": "pages/05-buttonDemo/05-buttonDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "06-登录案例",
+					"pathName": "pages/06-demo/06-demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "07-swiper轮播图",
+					"pathName": "pages/07-swiperDemo/07-swiperDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "08-移动组件move",
+					"pathName": "pages/08-moveDemo/08-moveDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "09-cell删除案例",
+					"pathName": "pages/09-cellDeleteDemo/09-cellDeleteDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "10-scrollView组件",
+					"pathName": "pages/10-scrollViewDemo/10-scrollViewDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11-自定义组件",
+					"pathName": "pages/11-customWidgetDemo/11-customWidgetDemo",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

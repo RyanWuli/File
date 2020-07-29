@@ -1,0 +1,8 @@
+<view class="cell">
+  <movable-area class="ma">
+    <movable-view class="mv" direction="horizontal" x="{{isOpen?'-100rpx':'0'}}" bindtouchstart="_handlerStart" bindtouchend="_handlerEnd">
+        这是一个cell
+    </movable-view>
+  </movable-area>
+  <button type="warn" class="delBtn">删除</button>
+</view>

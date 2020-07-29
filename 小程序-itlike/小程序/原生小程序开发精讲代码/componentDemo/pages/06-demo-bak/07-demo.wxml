@@ -1,0 +1,49 @@
+<!--pages/07-demo/07-demo.wxml-->
+<!-- vertical previous-margin="100rpx" next-margin="100rpx" -->
+<!-- <swiper class="lb" indicator-dots indicator-color="white" indicator-active-color="tomato" autoplay interval="1000" circular  display-multiple-items="1">
+  <swiper-item item-id="1">
+     <image src="https://edu-image.nosdn.127.net/f8aaf9a2fbfe42c1972c6ad2849a89b5.jpg?imageView&quality=100&crop=0_0_1200_666&thumbnail=223y124" class="item"/>
+  </swiper-item>
+  <swiper-item item-id="2">
+     <image src="https://edu-image.nosdn.127.net/bd42fd5266f244f59ab181669878a9aa.jpg?imageView&quality=100&crop=0_0_1200_666&thumbnail=223y124" class="item"/>
+  </swiper-item>
+  <swiper-item item-id="3">
+     <image src="https://edu-image.nosdn.127.net/22bb566fb1b94e6280813050a55d457d.jpg?imageView&quality=100&crop=0_0_1200_667&thumbnail=223y124" class="item"/>
+  </swiper-item>
+  <swiper-item item-id="4">
+     <view style="height: 100%; background-color: green;">
+      这是一个容器视图
+      <button>点我</button>
+     </view>
+  </swiper-item>
+</swiper> -->
+
+
+<!-- <scroll-view style="width: 200rpx; height: 200rpx; background-color: gray;" scroll-x scroll-y
+scroll-top="100rpx"
+scroll-left="100rpx"
+>
+  <image src="/assets/images/itlike.png"></image>
+</scroll-view>
+
+<scroll-view scroll-y style="width: 200rpx; height: 200rpx;background-color: cyan;"
+scroll-into-view="to4"
+scroll-with-animation
+>
+  <block wx:for="{{[1, 2, 3, 4, 5, 6]}}">
+    <button id="{{'to' + item}}">{{item}}</button>
+  </block>
+</scroll-view> -->
+
+<!-- <view style="background: gray; height: 100rpx; margin-top: 20rpx; display:flex;">
+  <movable-area style="height: 100%; background: red; flex: 1;">
+    <movable-view direction="horizontal" style="width: 100vw; height: 100%;background: orange;z-index:999;"
+    bindtouchstart="_handlerStart"
+    bindtouchend="_handlerEnd"
+    x="{{isOpen?-100:100}}"
+    >
+      这里放一个一个的cell
+    </movable-view>
+  </movable-area>
+  <button size="mini" type="warn" style="line-height: 100rpx;">删除</button>
+</view> -->

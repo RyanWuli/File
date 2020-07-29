@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<text bindtap="_handlerTap" class="test">{{name}}</text>
+
+<c-test/>
+<c-test/>
+<c-test/>

@@ -1,0 +1,9 @@
+/* pages/05-buttonDemo/05-buttonDemo.wxss */
+/* button {
+  width: 200rpx;
+  height: 200rpx;
+} */
+
+button::after {
+  border: none !important;
+}

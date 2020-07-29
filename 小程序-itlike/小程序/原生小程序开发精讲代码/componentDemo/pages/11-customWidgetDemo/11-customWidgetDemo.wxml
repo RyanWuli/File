@@ -1,0 +1,14 @@
+
+<!-- <x-segmentBar segmentItems="{{items}}" bind:selectChange="_handlerSelectChange"/> -->
+
+<x-segmentPane segmentItems="{{items}}" segment-cls="xs">
+  <view slot="0">1
+    <button>测试按钮</button>
+  
+  </view>
+  <view slot="1">
+    <switch></switch>
+  </view>
+  <view slot="2">3</view>
+  <view slot="3">4</view>
+</x-segmentPane>

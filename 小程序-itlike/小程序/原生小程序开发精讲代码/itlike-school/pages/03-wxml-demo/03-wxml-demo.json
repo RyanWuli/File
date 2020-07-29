@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "事件绑定-案例",
+  "usingComponents": {
+    "x-teacherItem": "/components/x-teacherItem/x-teacherItem"
+  }
+}

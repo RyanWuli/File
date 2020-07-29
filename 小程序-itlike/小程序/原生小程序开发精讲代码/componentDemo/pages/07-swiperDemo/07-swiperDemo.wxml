@@ -1,0 +1,21 @@
+<swiper class="lb"
+indicator-dots
+indicator-color="white"
+indicator-active-color="tomato"
+autoplay
+interval="6000"
+circular
+vertical
+previous-margin="20rpx"
+next-margin="20rpx"
+>
+  <swiper-item>
+     <image src="https://edu-image.nosdn.127.net/f8aaf9a2fbfe42c1972c6ad2849a89b5.jpg?imageView&quality=100&crop=0_0_1200_666&thumbnail=223y124" class="image" bindtap="_handlerTap"/>
+  </swiper-item>
+  <swiper-item>
+     <image id="" src="https://edu-image.nosdn.127.net/bd42fd5266f244f59ab181669878a9aa.jpg?imageView&quality=100&crop=0_0_1200_666&thumbnail=223y124" class="image"/>
+  </swiper-item>
+  <swiper-item>
+     <image src="https://edu-image.nosdn.127.net/22bb566fb1b94e6280813050a55d457d.jpg?imageView&quality=100&crop=0_0_1200_667&thumbnail=223y124" class="image"/>
+  </swiper-item>
+</swiper>

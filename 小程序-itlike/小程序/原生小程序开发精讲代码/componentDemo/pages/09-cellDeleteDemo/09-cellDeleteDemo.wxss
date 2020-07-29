@@ -1,0 +1,26 @@
+/* pages/09-cellDeleteDemo/09-cellDeleteDemo.wxss */
+.cell {
+  height: 100rpx;
+  background-color: orange;
+  margin-top: 100rpx;
+  display: flex;
+}
+.delBtn {
+  width: 100rpx;
+  /* height: 100rpx; */
+  line-height: 100rpx;
+  font-size: 22rpx;
+}
+.ma {
+  background-color: tomato;
+  height: 100%;
+  flex: 1;
+}
+
+.mv {
+  height: 100rpx;
+  /* width: 100vw; */
+  width: 750rpx;
+  background-color: cyan;
+  z-index: 999;
+}

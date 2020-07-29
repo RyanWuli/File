@@ -1,0 +1,134 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.4",
+	"appid": "wxef619f79256b86e9",
+	"projectname": "itlike-school",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "讲师列表",
+					"pathName": "pages/teacherList/teacherList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "课程列表",
+					"pathName": "pages/courseList/courseList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "01-WXML-数据绑定",
+					"pathName": "pages/01-wxml-dataBind/01-wxml-dataBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "02-WXML-事件绑定",
+					"pathName": "pages/02-wxml-eventBind/02-wxml-eventBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "03-事件绑定-案例",
+					"pathName": "pages/03-wxml-demo/03-wxml-demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "04-事件绑定-案例2",
+					"pathName": "pages/04-wxml-demo2/04-wxml-demo2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "05-wxml-模板的使用",
+					"pathName": "pages/05-wxml-template/05-wxml-template",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "06-wxml-include",
+					"pathName": "pages/06-wxml-include/06-wxml-include",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "07-wxss-study",
+					"pathName": "pages/07-wxss-study/07-wxss-study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "08-weui",
+					"pathName": "pages/08-weui/08-weui",
+					"scene": null
+				}
+			]
+		}
+	}
+}

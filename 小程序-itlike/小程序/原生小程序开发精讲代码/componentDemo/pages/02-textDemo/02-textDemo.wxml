@@ -1,0 +1,20 @@
+<!--pages/02-textDemo/02-textDemo.wxml-->
+<!-- <text class="one">1</text>
+<text>2</text>
+<text>3</text>
+
+<view>
+<text space="ensp" selectable="{{true}}">撩课 学院</text>
+<text space="emsp">撩课 学院</text>
+<text space="nbsp">撩课 学院</text>
+<text decode="{{true}}">撩课&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学院</text>
+
+</view> -->
+
+
+<view>
+<text>姓名: <text class="name">Sz</text></text>
+<text>年龄: <text class="age" decode="{{true}}">18&nbsp;&nbsp;岁</text></text>
+<text>机构: <text class="jg">撩课学院</text></text>
+
+</view>

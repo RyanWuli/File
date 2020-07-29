@@ -1,0 +1,25 @@
+/* pages/02-textDemo/02-textDemo.wxss */
+/* .one {
+  background: red;
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+view text {
+  display: block;
+} */
+
+
+view>text {
+  display: block;
+}
+
+.name {
+  color: red;
+}
+.age {
+  color: orange;
+}
+.jg {
+  color: pink;
+}

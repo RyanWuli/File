@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "讲师列表",
+  "usingComponents": {
+    "x-teacherItem": "/components/x-teacherItem/x-teacherItem"
+  }
+}

@@ -1,0 +1,15 @@
+<!--components/x-courseItem/x-courseItem.wxml-->
+<navigator open-type="switchTab" url="/pages/teacherList/teacherList">
+<view class="courseItem">
+  <view class="fm">
+    <image src="/assets/images/fm1.jpg" mode="aspectFill"/>
+  </view>
+  <view class="desc">
+    <text class="courseTitle">Python-玩转微信系列</text>
+    <text class="courseTeacher">讲师：撩课-王顺子</text>
+    <text class="courseStudyCount">学习人数：100人</text>
+    <text class="globalStyle">全局样式测试</text>
+  </view>
+ 
+</view>
+</navigator>

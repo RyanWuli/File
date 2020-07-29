@@ -1,0 +1,52 @@
+/* pages/01-viewDemo/01-viewDemo.wxss */
+view {
+  background-color: orange;
+  margin: 5px;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.tap {
+  background-color: tomato !important;
+}
+
+.one {
+  width: 500rpx;
+  height: 500rpx;
+  background-color: red;
+}
+
+.two {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: orange;
+}
+
+
+.three {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: cyan;
+}
+
+.viewTest {
+  width: 300rpx;
+  height: 300rpx;
+  background: orange;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 30rpx;
+  border: 1px solid red;
+  transition: all 1s linear;
+}
+
+.viewTap {
+  width: 500rpx;
+  height: 500rpx;
+  background: rgba(255, 102, 0, 0.822);
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+  font-size: 50rpx;
+  border: 5px dashed cyan;
+}

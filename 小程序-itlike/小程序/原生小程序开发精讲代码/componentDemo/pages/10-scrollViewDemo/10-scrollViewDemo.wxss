@@ -1,0 +1,6 @@
+/* pages/10-scrollViewDemo/10-scrollViewDemo.wxss */
+.sv {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: cyan;
+}

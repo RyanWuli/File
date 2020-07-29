@@ -1,0 +1,8 @@
+<!-- 1. 模板的定义 -->
+<template name="itlike">
+<view class="testT">
+  <view>{{title}}</view>
+  <view>{{desc}}</view>
+  <text bindtap="_handlerTap">介绍</text>
+</view>
+</template>

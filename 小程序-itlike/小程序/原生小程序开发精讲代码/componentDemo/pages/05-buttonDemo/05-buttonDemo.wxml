@@ -1,0 +1,13 @@
+<button size="mini">登录</button>
+
+<button type="primary">登录</button>
+<button type="warn">登录</button>
+
+<button type="primary" plain="{{true}}">登录</button>
+<button type="warn" plain="{{true}}">登录</button>
+
+<button type="warn" disabled="{{true}}">登录</button>
+
+<button type="primary" loading>登录</button>
+
+<button open-type="getUserInfo" bindgetuserinfo="_getUserInfo">获取用户信息</button>

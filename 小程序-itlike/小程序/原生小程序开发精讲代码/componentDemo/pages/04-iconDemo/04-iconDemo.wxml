@@ -1,0 +1,3 @@
+<block wx:for="{{types}}" wx:for-item="typeValue" wx:key="*this">
+  <icon type="{{typeValue}}" size="{{(index + 1) * 10 + 'rpx'}}" color="cyan"></icon>
+</block>

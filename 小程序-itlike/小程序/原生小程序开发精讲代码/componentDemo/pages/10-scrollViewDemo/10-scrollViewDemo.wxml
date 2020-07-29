@@ -1,0 +1,20 @@
+<scroll-view class="sv"
+scroll-x
+scroll-y
+scroll-top="100px"
+scroll-left="100px"
+>
+  <image src="/assets/images/itlike.png"/>
+</scroll-view>
+
+<scroll-view class="sv" scroll-y scroll-into-view="to6">
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>4</button>
+<button>5</button>
+<button id="to6">6</button>
+<button>7</button>
+<button>8</button>
+
+</scroll-view>

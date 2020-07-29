@@ -1,0 +1,6 @@
+.globalStyle {
+
+  color: cyan !important;
+  font-size: 25px !important;
+
+}

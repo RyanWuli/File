@@ -1,0 +1,5 @@
+<view class="teacherItem {{isDelete?'deleteItem': ''}}" bindlongpress="_deleteItem">
+  <image src="{{teacherItem.teacherImg}}" mode="aspectFill"/>
+  <text>{{teacherItem.teacherName}}</text>
+  <view class="delBtn" hidden="{{!isDelete}}" bindtap="_handlerDelete">X</view>
+</view>

@@ -1,0 +1,20 @@
+<view class="teacherContainer">
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+  <x-teacherItem/>
+</view>

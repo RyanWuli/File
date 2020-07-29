@@ -1,0 +1,54 @@
+<!--pages/02-wxml-eventBind/02-wxml-eventBind.wxml-->
+<!-- <text id="one" bindtap="_handlerTap">事件绑定1</text>
+<text id="two" bindtap="_handlerTap">事件绑定2</text> -->
+
+<!-- <view id="one" data-name="sz" data-age="18" class="one" bindtap="_handlerOne">
+  one
+  <view id="two" class="two" bindtap="_handlerTwo">
+     two
+     <view id="three" class="three" bindtap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+<!-- catch -->
+<!-- <view id="one" data-name="sz" data-age="18" class="one" bindtap="_handlerOne">
+  one
+  <view id="two" class="two" catchtap="_handlerTwo">
+     two
+     <view id="three" class="three" bindtap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+
+<!-- <view id="one" data-name="sz" data-age="18" class="one" capture-bind:tap="_handlerOne">
+  one
+  <view id="two" class="two" capture-bind:tap="_handlerTwo">
+     two
+     <view id="three" class="three" capture-bind:tap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+
+<view id="one" data-name="sz" data-age="18" class="one" capture-catch:tap="_handlerOne">
+  one
+  <view id="two" class="two" capture-catch:tap="_handlerTwo">
+     two
+     <view id="three" class="three" capture-catch:tap="_handlerThree">three</view>
+  </view>
+</view>
+
+<!-- <view class="test" bind:tap="_handlerTap">
+   事件类型测试-tap
+</view>
+
+<view class="test" bind:longpress="_handlerTap">
+   事件类型测试-longpress
+</view> -->
+
+ <!-- <view class="test" bind:longpress="_handlerLongpress">
+   事件类型测试-longpress
+</view> -->
+<!-- 
+<view class="test" bind:touchstart="_handlerTS" bind:touchmove="_handlerTM" bind:touchend="_handlerTE" bindtouchcancel="_handlerTC">
+   事件类型测试-touch系列
+</view> -->

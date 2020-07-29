@@ -1,0 +1,99 @@
+<!--pages/01-wxml-dataBind/01-wxml-dataBind.wxml-->
+
+<block wx:for="{{courseItems}}" wx:for-index="idx" wx:for-item="courseItem" wx:key="id">
+<!-- 如果通过wx:for 遍历一个数组, 那到时候,for循环内部, 想要获取某一个具体的元素, 通过一个特性的变量名: item 来获取 index 元素对应的索引-->
+  <view class="courseItem {{courseItem.isStar ? 'star': ''}}">
+    <view class="fm">
+      <image src="{{courseItem.courseImg}}" mode="aspectFill"/>
+    </view>
+    <view class="desc">
+      <text class="courseTitle">{{courseItem.courseTitle}}</text>
+      <text class="courseTeacher">讲师：{{courseItem.courseTeacher}} <text class="isStar" wx:if="{{courseItem.isStar}}">星级讲师</text></text>
+      <!-- <text class="courseStudyCount">学习人数：{{courseItem.courseStudyCount >= 1000 ? courseItem.courseStudyCount / 1000 + "k": courseItem.courseStudyCount}}人</text> -->
+      <text class="courseStudyCount">学习人数：{{numTool.parseNum(courseItem.courseStudyCount)}}人</text>
+      <text>{{idx}}</text>
+    </view>
+  </view>
+</block>
+
+
+<block wx:for="{{testKeyData}}" wx:key="*this">
+  <switch/>
+  <text>{{item}}</text>
+  <text>{{tool.tstFunc()}}</text>
+  <text>{{tool2.sumFunc(6, 8)}}</text>
+</block>
+
+<button bindtap="_handlerTap">点击增加</button>
+
+<!-- 引入定义的wxs模块 -->
+<wxs module="tool2" src="tool2.wxs" />
+
+
+<wxs module="numTool">
+  function parseNum(count) {
+    if (count < 1000) {
+      return count
+    }
+    if (count >= 1000 && count < 10000) {
+      return (count / 1000).toFixed(2) + "k"
+    }
+    if (count >= 10000 && count < 100000000) {
+      return (count / 10000).toFixed(2) + "w"
+    }
+
+  }
+
+  module.exports = {
+    parseNum: parseNum
+  }
+
+</wxs>
+
+
+<wxs module="tool">
+  function tst() {
+    var num = 999
+    console.log("xxxx-test",num)
+    return "xxx-test"
+  }
+
+  module.exports = {
+    tstFunc: tst
+  }
+
+</wxs>
+
+
+<!-- <view class="courseItem {{courseItems[1].isStar ? 'star': ''}}">
+  <view class="fm">
+    <image src="{{courseItems[1].courseImg}}" mode="aspectFill"/>
+  </view>
+  <view class="desc">
+    <text class="courseTitle">{{courseItems[1].courseTitle}}</text>
+    <text class="courseTeacher">讲师：{{courseItems[1].courseTeacher}} <text class="isStar" wx:if="{{courseItems[1].isStar}}">星级讲师</text></text>
+    <text class="courseItems[1].courseStudyCount">学习人数：{{courseItems[1].courseStudyCount >= 1000 ? courseItems[1].courseStudyCount / 1000 + "k": courseItems[1].courseStudyCount}}人</text>
+  </view>
+</view> -->
+
+
+<!-- 100=满分 >= 90 优秀 >=80 及格 >=60勉强 <60 不及格>> -->
+
+<!-- <view wx:if="{{score==100}}">满分</view>
+<view wx:elif="{{score>=90}}">优秀</view>
+<view wx:elif="{{score>=80}}">及格</view>
+<view wx:elif="{{score>=60}}">勉强</view>
+<view wx:else>不及格</view> -->
+
+<!-- <block wx:if="{{score>=60}}">
+  <view>及格</view>
+  <view>奖励一个棒棒糖</view>
+</block>
+
+<view wx:else>
+  <view >不及格</view>
+  <view>奖励一个搓衣板</view>
+</view> -->
+
+<!-- <view wx:if="{{false}}">测试</view> -->
+<!-- <view hidden="{{true}}">测试</view> -->

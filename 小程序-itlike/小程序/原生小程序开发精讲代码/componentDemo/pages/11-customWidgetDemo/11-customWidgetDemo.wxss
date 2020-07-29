@@ -1,0 +1,5 @@
+/* pages/11-customWidgetDemo/11-customWidgetDemo.wxss */
+.xs {
+  /* width: 500rpx; */
+  height: 100vh;
+}

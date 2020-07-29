@@ -1,0 +1,33 @@
+.segmentBar {
+  width: 100%;
+  height: 100rpx;
+  /* background-color: orange; */
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.segmentItem {
+  flex: 1;
+  /* border: 1px solid red; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.segmentItem .title {
+  font-size: 30rpx;
+  color: #666;
+}
+
+.segmentItem .subTitle {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.active .title {
+  color: rgb(15, 131, 177) !important;
+}
+
+.active .subTitle {
+  color: rgb(99, 204, 245) !important;
+}
